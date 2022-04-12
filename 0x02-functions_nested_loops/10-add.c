@@ -1,13 +1,15 @@
-#include "holberton.h"
-/**
- * add - returns the sum of its parameters
- * @a: int type number
- * @b: int type number
- * Return:0
- */
+#include "main.h"
 
+/**
+ * add - add two numbers from input
+ * @a: first aparamet
+ * @b: second parameter
+ *
+ * Description: adds two numbers
+ * Return: Always (0).
+ */
 
 int add(int a, int b)
 {
-return (a + b);
+	return (a + b);
 }
